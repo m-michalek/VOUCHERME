@@ -95,11 +95,11 @@ p {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #64ced6;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: #64ced6 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -143,7 +143,7 @@ p {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #64ced6;
   }
 }
 header {
@@ -155,7 +155,7 @@ header {
   /* fallback for old browsers */
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #000000, #dc2430);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #000000, #64ced6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -285,7 +285,7 @@ section.features .feature-item h3 {
 section.features .feature-item i {
   font-size: 80px;
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #000000, #64ced6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -395,7 +395,7 @@ footer ul li a.active {
 .bg-primary {
   background: #fdcc52;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#64ced6, #64ced6);
 }
 .text-primary {
   color: #fdcc52;
@@ -414,8 +414,10 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  background-color: rgba(100, 206, 214, 0.6);
+  border-color: #64ced6;
+  /*background-color: #64ced6;
+  opacity: 0.7;*/
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
